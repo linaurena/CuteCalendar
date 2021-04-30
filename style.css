@@ -19,4 +19,17 @@ section::before{
     position: absolute;
     width: 400px;
     height: 400px;
+    background: linear-gradient(rgb(182, 93, 93), lightcoral);
+    border-radius: 50%;
+    transform: translate(-250px,-120px);
+}
+
+section::after{
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(rgb(163, 116, 116), rgb(238, 186, 186));
+    border-radius: 50%;
+    transform: translate(250px,150px);
 }
